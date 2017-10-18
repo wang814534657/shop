@@ -1,0 +1,26 @@
+<div class="container">
+
+
+	<menu
+			ng-repeat="val in menus"
+			val="val"
+			index="{{$index}}"></menu>
+
+
+</div>
+<footer class="footer mt50">
+	<p>
+		<span class="all">
+
+		</span>
+
+		<span class="" ng-click="allcheck()">全选</span>
+	</p>
+
+	<p class="zj">
+		合计:&nbsp; ¥
+		<span class="price-all">{{goodsPrice}}</span>
+	</p>
+
+	<p class="affect">结算 &nbsp; <span>{{goodsCount}}</span></p>
+</footer>

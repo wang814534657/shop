@@ -1,0 +1,41 @@
+
+*{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#tab{
+  width: 600px;
+  height: 600px;
+  margin:200px auto;
+  border: 1px solid #007aff;
+  overflow: hidden;
+  border-radius: 20px;
+  ol{
+    display: flex;
+    height: 0.6rem;
+    li{
+      flex: 1;
+      text-align: center;
+      line-height: 0.6rem ;
+
+    }
+    .act{
+        background-color: #007aff;
+        color: #fff;
+      }
+  }
+  ul{
+    width: 100%;
+    height: 5.4rem;
+    li{
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

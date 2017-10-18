@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=2,maximum-scale=1,user-scalable=no">
+	<title></title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" href="css/reset.css">
+	<link type="text/css" rel="stylesheet" href="css/common.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+	<h3>模板商城</h3>
+<div class="bts">
+	<p><a href="#/shop">购物车</a></p>
+
+
+</div>
+
+</header>
+             <ui-view>
+
+		     </ui-view>
+
+
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-ui-router.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+<!--工厂模式获取后台数据-->
+<script type="text/javascript" src="App/Factory/menuFactory.js"></script>
+
+<!--controler.js 绑定数据 传给自定义指令-->
+<script type="text/javascript" src="App/Controller/menuController.js"></script>
+<script type="text/javascript" src="App/Controller/menutwoController.js"></script>
+
+
+<!--自定义指令-->
+<script type="text/javascript" src="App/Directive/menuDirective.js"></script>
+
+
+</body>
+</html>

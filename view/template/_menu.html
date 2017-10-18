@@ -1,0 +1,35 @@
+<div class="shop">
+	<span class="close"
+		  ng-class="{on:val.check}"
+		  ng-click="itemChecked(index)"
+			>
+
+	</span>
+
+	<div class="photo">
+		<p class="name-c">{{val.name}}</p>
+
+		<p class="photo-img"><img ng-src={{val.img}} alt=""></p>
+
+		<p class="price text-orange">¥{{val.price}}</p>
+	</div>
+
+
+	<div class="num">
+
+		<input type="button" class="btn btn-default" value="-">
+		<span>{{val.num}}</span>
+		<input type="button" class="btn btn-default" value="+">
+	</div>
+
+
+	<div class="delete">
+		     <span
+					 class="delete-x"
+					 ng-click="deleteItem(index)"
+					 >x
+		    </span>
+	</div>
+
+
+</div>

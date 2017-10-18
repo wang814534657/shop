@@ -1,0 +1,28 @@
+[
+  {
+    "name":"保时捷",
+    "price":"1200",
+    "sales":"5.7万笔",
+    "img":"img/bj.jpg",
+    "check":true,
+    "num":1
+  },
+  {
+    "name":"迈凯伦",
+    "price":"2000",
+    "sales":"4.3万笔",
+    "img":"img/lb.jpg",
+    "check":true,
+    "num":1
+
+  },
+  {
+    "name":"劳斯莱斯",
+    "price":"2500",
+    "sales":"1.7万笔",
+    "img":"img/ls.jpg",
+    "check":true,
+    "num":1
+  }
+
+]

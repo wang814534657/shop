@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#box {
+  width: 600px;
+  height: 620px;
+  margin: 200px auto;
+  border: 1px solid #007aff;
+  overflow: hidden;
+  border-radius: 20px; }
+  #box ol {
+    display: flex;
+    height: 0.6rem;
+    border-bottom: 1px solid #8c8c8c; }
+    #box ol li {
+      flex: 1;
+      margin: 0.1rem;
+      text-align: center;
+      line-height: 0.6rem; }
+      #box ol li img {
+        width: 100%;
+        height: 100%; }
+    #box ol .active {
+      border: 2px solid #fa8100; }
+  #box ul {
+    width: 100%;
+    height: 5.4rem; }
+    #box ul li {
+      height: 100%; }
+      #box ul li img {
+        width: 100%;
+        height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
